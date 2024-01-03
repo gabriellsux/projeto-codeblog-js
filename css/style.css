@@ -107,3 +107,50 @@ header {
 }
 
 /* -- MAIN -- */
+
+.main-container {
+    max-width: 120rem;
+    margin: 0 auto;
+    margin-top: 12rem;
+}
+
+.main-container .card {
+    margin-bottom: 6rem;
+    border-radius: 0.5rem;
+    border: 0.1rem solid var(--orange);
+    background: var(--black-light);
+}
+
+.card .card-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 2.5rem 2.5rem 0 2.5rem;
+}
+
+.card .card-header p {
+    font-size: 1.6rem;
+    color: var(--orange);
+}
+
+.heart-icon {
+    width: 3.2rem;
+    height: 3.2rem;
+    stroke: var(--orange);
+    cursor: pointer;
+}
+
+.heart-icon.active {
+    fill: var(--orange);
+}
+
+.card-content {
+    padding: 0 2.5rem 2.5rem 2.5rem;
+    margin-top: 2.5rem;
+}
+
+.card-content p {
+    margin-top: 1rem;
+    color: var(--gray);
+    font-size: 1.8rem;
+    line-height: 3.2rem;
+}
