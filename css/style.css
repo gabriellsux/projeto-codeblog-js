@@ -6,7 +6,7 @@
     --black-border: #252529;
     --white: #FFF;
     --gray: #AFABB6;
-    --orange: #E07B67;
+    --red: #ca1945;
 
     font-size: 62.5%;
 }
@@ -44,7 +44,7 @@ header {
     height: 25rem;
     display: flex;
     justify-content: center;
-    background: var(--black-light);
+    background: var(--red);
 }
 
 .header-container {
@@ -59,7 +59,7 @@ header {
 }
 
 .header-container-title span {
-    color: var(--orange);
+    color: var(--black-light);
 }
 
 .header-container-title h1 {
@@ -80,8 +80,8 @@ header {
     height: 6.5rem;
     padding-left: 7.4rem;
     border-radius: 0.5rem;
-    border: 0.2rem solid var(--black-border);
-    background: var(--black-light);
+    border: 0.2rem solid var(--white);
+    background: var(--red);
     color: var(--white);
     font-size: 1.7rem;
     font-family: 'Inter', sans-serif;
@@ -93,11 +93,12 @@ header {
 }
 
 .header-container-search input::placeholder {
-    color: var(--gray);
+    color: var(--white);
 }
 
 .search-icon {
-    width: 5.4rem;
+    width: 3rem;
+    margin-left: 2.5rem;
     height: 100%;
     display: flex;
     align-items: center;
@@ -117,7 +118,7 @@ header {
 .main-container .card {
     margin-bottom: 6rem;
     border-radius: 0.5rem;
-    border: 0.1rem solid var(--orange);
+    border: 0.1rem solid var(--red);
     background: var(--black-light);
 }
 
@@ -129,18 +130,18 @@ header {
 
 .card .card-header p {
     font-size: 1.6rem;
-    color: var(--orange);
+    color: var(--red);
 }
 
 .heart-icon {
     width: 3.2rem;
     height: 3.2rem;
-    stroke: var(--orange);
+    stroke: var(--red);
     cursor: pointer;
 }
 
 .heart-icon.active {
-    fill: var(--orange);
+    fill: var(--red);
 }
 
 .card-content {
